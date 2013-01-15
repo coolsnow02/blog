@@ -1,0 +1,6 @@
+<h1> Author </h1>
+<%= form_for authors_path, :method => :post  do |f| %>
+    <%= f.label :Author_name %>
+    <%= f.text_field :name %>
+    <%= f.submit 'Register' %>
+<% end %>
