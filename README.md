@@ -30,5 +30,22 @@ Our deployment rate is really embarassing! But we needn't worry. As I said, we w
 
 ##2010-2011 The Upliftment
 
-With a new year and quite some experience by then, we were all set to move on and re-define how we dealt with deployments, learning their importance the hard way. The first thing we put to practice was Versioning. We started using versions like 'test' and 'stage' and 'production' depending on the purpose for which we deployed our application.
+With a new year and quite some experience by then, we were all set to move on and re-define how we dealt with deployments, learning their importance the hard way. 
+
+The first thing we put to practice was Versioning. We started using versions like 'test' and 'stage' and 'production' depending on the purpose for which we deployed our application.
+
 We also introduced Capistrano - an open source tool for running scripts on multiple servers. With this, deployment on multiple instances became easier and it helped us manage our deployments better.
+
+We also felt the need to monitor the errors and exceptions in our applications. There was no way to figure out something went wrong in the application or something has broken until we came across it ourselves. So we implmented plugins that notified us or errors and exceptions. Made us react faster to these situations and ahve them fixed before more damage was done.
+
+###Our First Mess Up
+
+Well we were amateurs, with some experience, and the potential to mess up deployments completely. And so, we did. We were making some major front end changes to an already live site and had to deploy for testing it internally. While doing a 'cap deploy' we accidentally deployed it on production which was the environment for the live site. And ka-boom! What a mess! We went ballistic over fixing it and undoing it on production, and dont even get me started on the client feedback! A nightmare as it was, mistakes like these are unaffordable for any startup. And this had to be dealt with seriously.
+
+###2010-2011 Lessons Learnt
+
+* With our epic mess up, and some more experince toying around with deployments, we realised one thing, and that was - 
+
+  Rollback application code - easier with versioning but rolling back database - still aint an easy task.
+
+* What we also understood, is that deployments should not be assigned to everyone and anyone involved with development. An experienced, responsible selected lot should deal with deployments to avoid such accidents. And so, we felt the need to control who had access to deployments and related tasks.
