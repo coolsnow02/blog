@@ -5,6 +5,8 @@ gem 'mongoid'
 gem 'bson_ext'
 gem 'haml-rails'
 gem 'devise'
+gem 'mongodb_logger'
+gem 'moped'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
