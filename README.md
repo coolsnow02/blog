@@ -49,3 +49,10 @@ Well we were amateurs, with some experience, and the potential to mess up deploy
   Rollback application code - easier with versioning but rolling back database - still aint an easy task.
 
 * What we also understood, is that deployments should not be assigned to everyone and anyone involved with development. An experienced, responsible selected lot should deal with deployments to avoid such accidents. And so, we felt the need to control who had access to deployments and related tasks.
+
+
+###2011-2012 One Step Ahead
+
+With a new year came new ideas, more experience and maturity in the way we did things. With past mistakes and learnings, we decided to introduce dedicated SysAdmins who would handle deployments and related tasks.
+SysAdmins are sophisticated and trained individuals who are well expertised in deployments, infrastructure management and handling servers efficiently. 
+We also started writing bash scripts for installations of services, tools and plugins. This reduced the laborious efforts of installing all dependencies and tools and plugins manually one-by-one.
