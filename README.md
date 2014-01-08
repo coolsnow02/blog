@@ -26,7 +26,7 @@ With a few more projects and a few more deployments, we realised that this was a
 #### 2009-2010 Lessons Learnt
 With growing number of projects and need for more deployments, we could not carry on with this rate. Our current deployment rate? 1 deployment in 1 week or two. In all this, we concluded that if we were to grow, we could not keep following this method for each deployment. We realised that we needed versions for our deployments, so that the next time "accidents" happen, we can recover more efficiently.
 
-Our deployment rate is really embarassing! But we needn't worry. As I said, we were and are a bunch of really determined indivuduals. We were confident we'd figure out a better solution.
+Our deployment rate was really embarassing! But we needn't worry. As I said, we were and are a bunch of really determined indivuduals. We were confident we'd figure out a better solution.
 
 ##2010-2011 The Upliftment
 
