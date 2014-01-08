@@ -36,7 +36,7 @@ The first thing we put to practice was Versioning. We started using versions lik
 
 We also introduced Capistrano - an open source tool for running scripts on multiple servers. With this, deployment on multiple instances became easier and it helped us manage our deployments better.
 
-We also felt the need to monitor the errors and exceptions in our applications. There was no way to figure out something went wrong in the application or something has broken until we came across it ourselves. So we implmented plugins that notified us or errors and exceptions. Made us react faster to these situations and ahve them fixed before more damage was done.
+We also felt the need to monitor the errors and exceptions in our applications. There was no way to figure out something went wrong in the application or something has broken until we came across it ourselves. So we implmented plugins that notified us or errors and exceptions. Made us react faster to these situations and have them fixed before more damage was done.
 
 ###Our First Mess Up
 
