@@ -56,3 +56,16 @@ Well we were amateurs, with some experience, and the potential to mess up deploy
 With a new year came new ideas, more experience and maturity in the way we did things. With past mistakes and learnings, we decided to introduce dedicated SysAdmins who would handle deployments and related tasks.
 SysAdmins are sophisticated and trained individuals who are well expertised in deployments, infrastructure management and handling servers efficiently. 
 We also started writing bash scripts for installations of services, tools and plugins. This reduced the laborious efforts of installing all dependencies and tools and plugins manually one-by-one.
+
+To make life easier, we moved from capistrano to webistrano. Capistrano being the remote server automation tool that helped us with our deployments, webistrano gave us a web UI for managing capistrano deployments. Neat right?
+
+While we went all "cool" using more sophisticated tools and plugins to aid our deployments, we were still facing problems and deployments weren't all that smooth. Now the question was, what are we still doing wrong? Well not wrong entirely, but realisation dawned upon us that SysAdmins were not able to understand the developer's side of the story and other technicalities of running the application and had to be spoon fed with a lot of details like - dependencies, security, scalability, availability, database and so on and so forth. This was creating a road block for achieving efficient deployments.
+
+###2011-2012 Lessons Learnt
+
+* We figured that we needed to bridge this gap between developers and SysAdmins. We needed to introduce someone that had a fair knowledge of both to make 
+
+Our deployment rates reached 2-3 deployments a week. Which, I believe, is an achievement in itself considering the previous rate.
+But this is not enough! With the number of projects growing, the company growing, and the need for more frequent deployments, this rate was definitely not enough!
+
+
